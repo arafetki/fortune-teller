@@ -79,3 +79,7 @@ It provides a comprehensive example of **building**, **testing**, and **deployin
 ![](./screenshots/logging/cloudwatch.png)
 
 ![](./screenshots/logging/function_logs.png)
+
+### Conclusion
+
+This mini project demonstrated the basic steps involved in creating and deploying a serverless API using AWS Lambda and API Gateway. It also highlighted the importance of logging and monitoring for tracking the behavior of our Lambda functions.
