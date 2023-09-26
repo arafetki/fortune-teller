@@ -3,13 +3,9 @@ import logging
 import json
 
 # Configure logging
-logging.basicConfig(
-    format='%(asctime)s [%(levelname)s] - %(message)s',
-    datefmt='%Y-%m-%d %H:%M:%S',
-    level=logging.INFO
-)
 
 logger = logging.getLogger()
+logger.setLevel(logging.INFO)
 
 
 def generate_random_answer(event, context):
