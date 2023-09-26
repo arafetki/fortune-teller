@@ -66,3 +66,16 @@ It provides a comprehensive example of **building**, **testing**, and **deployin
 - **Step 4 :**  Review and Create
 
 ![](./screenshots/api_gateway/api_step5.png)
+
+#### Test the Application
+
+![](./screenshots/tests/test1.png)
+
+
+#### See Function Logs
+
+- The Default Logging Service is CloudWatch
+
+![](./screenshots/logging/cloudwatch.png)
+
+![](./screenshots/logging/function_logs.png)
