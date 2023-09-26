@@ -11,7 +11,7 @@ logging.basicConfig(
 logger = logging.getLogger()
 
 
-def generate_random_answer():
+def generate_random_answer(event, context):
     try:
         # List of possible answers
         answers = ["yes", "no", "maybe"]
