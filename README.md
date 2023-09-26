@@ -47,3 +47,22 @@ It provides a comprehensive example of **building**, **testing**, and **deployin
 - **Step 6 :**  Test the lambda function
 
 ![](./screenshots/lambda/lambda_step6.png)
+
+#### Create and Configure Aws APi Gateway
+
+- **Step 1 :**  Open Aws API Gateway Management Console
+
+![](./screenshots/api_gateway/api_step1.png)
+
+- **Step 2 :**  Choose a Name and Integrate with the Lambda Function
+
+![](./screenshots/api_gateway/api_step2.png)
+
+- **Step 3 :**  Configure API Route
+
+![](./screenshots/api_gateway/api_step3.png)
+
+
+- **Step 4 :**  Review and Create
+
+![](./screenshots/api_gateway/api_step5.png)
