@@ -22,9 +22,9 @@ It provides a comprehensive example of **building**, **testing**, and **deployin
 
 #### Create and configure aws lambda function
 
-- **Step 1 :**  Open Aws Lambda management console
+- **Step 1 :**  Open Aws Lambda Management Console
 
-![](./screenshots/lambda/step1.png)
+![](./screenshots/lambda/lambda_step1.png)
 
 
 
