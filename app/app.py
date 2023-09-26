@@ -1,5 +1,6 @@
 import random
 import logging
+import json
 
 # Configure logging
 logging.basicConfig(
@@ -21,9 +22,13 @@ def generate_random_answer(event, context):
 
         logger.info(f"Generated random answer: {random_answer}")
 
+        response = {
+            "answer": random_answer
+        }
+
         return {
             "statusCode": 200,
-            "body": random_answer,
+            "body": json.dumps(response),
             "headers": {
                 "Content-Type": "application/json"
             }
@@ -31,9 +36,14 @@ def generate_random_answer(event, context):
 
     except Exception as e:
         logger.error(f"An error occurred: {str(e)}")
+        response = {
+            "error": "Internal Server Error"
+        }
         return {
             "statusCode": 500,
-            "body": "Internal Server Error",
+            "body": {
+                "error": json.dumps(response)
+            },
             "headers": {
                 "Content-Type": "application/json"
             }
