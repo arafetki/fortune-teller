@@ -24,12 +24,11 @@ def generate_random_answer():
         return {
             "statusCode": 200,
             "body": random_answer
-        }        
-    
+        }
+
     except Exception as e:
         logger.error(f"An error occurred: {str(e)}")
         return {
             "statusCode": 500,
             "body": "Internal Server Error"
-        }       
-
+        }
