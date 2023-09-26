@@ -27,5 +27,23 @@ It provides a comprehensive example of **building**, **testing**, and **deployin
 ![](./screenshots/lambda/lambda_step1.png)
 
 
+- **Step 2 :**  Choose Name and Runtime Environment 
+
+![](./screenshots/lambda/lambda_step2.png)
 
 
+- **Step 3 :**  Optional : Rename "lambda_function" file to fortune_teller 
+
+![](./screenshots/lambda/lambda_step3.png)
+
+- **Step 4 :**  Copy and Paste the Function Code into the Code Box and Click Deploy
+
+![](./screenshots/lambda/lambda_step4.png)
+
+- **Step 5 :**  Change the Runtime settings
+
+![](./screenshots/lambda/lambda_step5.png)
+
+- **Step 6 :**  Test the lambda function
+
+![](./screenshots/lambda/lambda_step6.png)
