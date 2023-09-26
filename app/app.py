@@ -23,12 +23,18 @@ def generate_random_answer(event, context):
 
         return {
             "statusCode": 200,
-            "body": random_answer
+            "body": random_answer,
+            "headers": {
+                "Content-Type": "application/json"
+            }
         }
 
     except Exception as e:
         logger.error(f"An error occurred: {str(e)}")
         return {
             "statusCode": 500,
-            "body": "Internal Server Error"
+            "body": "Internal Server Error",
+            "headers": {
+                "Content-Type": "application/json"
+            }
         }
